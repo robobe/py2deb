@@ -1,0 +1,16 @@
+Source: py2deb
+Section: python
+Priority: optional
+Maintainer: Your Name <you@example.com>
+Build-Depends:
+ debhelper-compat (= 13),
+ dh-python,
+ python3-all,
+ pybuild-plugin-pyproject
+Standards-Version: 4.6.2
+
+Package: python3-py2deb
+Architecture: all
+Depends: ${python3:Depends}, ${misc:Depends}
+Description: py2deb Python library
+ Python library installed system-wide using dh-python.
