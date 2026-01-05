@@ -15,5 +15,8 @@ debian/*
 !debian/changelog
 !debian/rules
 !debian/copyright
+!debain/postinst
+!debian/prerm
+!debian/postrm
 .pybuild
 debs/
